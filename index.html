@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Spotify by Dhaka</title>
+    <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="cont flex bgblack roboto-pawan">
+        <div class="left  ">
+            <div class="home bggray rounded m-1 p-1 relative">
+                <img class=" logo invert " src="./Images/logo.svg" alt="logo">
+
+                <img class=" close invert left0" src="./Images/close.svg" alt="">
+
+                <ul>
+                    <li class=" li1 flex"><img class="invert " src="./Images/home.svg" alt="home">Home</li>
+                    <li class=" li2 flex"><img class="invert" src="./Images/sreach.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class="library bggray rounded m-1 p-1">
+                <div class=" pb flex">
+                    <img class="lib_logo invert" src="./Images/playlist.svg" alt="playlist">
+                    <p>Your Library</p>
+                </div>
+                <div class="songlist roboto-pawan">
+                    <ul>
+
+                    </ul>
+                </div>
+                <footer>
+                    <a href="https://www.spotify.com/in-en/legal/end-user-agreement/"><span>Legal</span></a>
+                    <a href="https://www.spotify.com/in-en/safetyandprivacy"><span>Safety & Privacy </span></a>
+                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/"><span>Privacy Policy</span></a>
+                    <a href="https://www.spotify.com/in-en/legal/cookies-policy/"><span>Cookies</span></a>
+                    <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3"><span>About Ads</span></a>
+                </footer>
+            </div>
+
+        </div>
+        <div class="right ">
+            <div class="header flex  bggray rounded m-1 p-1">
+                <div class="hamburger">
+                    <img class="invert" src="./Images/hamburger.svg" alt="">
+                </div>
+                <div class="lr  flex center1 center2">
+                    <img class="invert" src="./Images/left.png" alt="left-arrow">
+                    <img class="invert" src="./Images/right.png" alt="left-arrow">
+                </div>
+                <div class="btns flex center1 center2">
+                    <button class="sign">Sign Up</button>
+                    <button class="log">Log in</button>
+                </div>
+            </div>
+            <div class=" spotifyPlaylists p-1">
+                <h1 class="sptext">Spotify Playlists</h1>
+                <div class="card-cont ">
+                    
+                </div>
+            </div>
+
+            <div class="playbar bggray  m-1 p-1">
+                <div class="abovebar">
+                    <div class="songInfo"></div>
+                    <div class="songbar flex center1 center2">
+                        <img width=40; id="minus" class="invert" src="./Images/minusvol.svg" alt="">
+                        <img width=40; id="previous" class="invert" src="./Images/prevsong.svg" alt="">
+                        <img width=40; id="play" class="invert" src="./Images/play.svg" alt="">
+                        <img width=40; id="next" class="invert" src="./Images/nextsong.svg" alt="">
+                        <img width=40; id="plus" class="invert" src="./Images/plusvol.svg" alt="">
+                    </div>
+                    <div class="songTime"></div>
+                </div>
+                <div class="papaseek">
+                    <div class="seekbar">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
